@@ -71,39 +71,8 @@ public class Server {
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
-
-
-            //readLoop(in, ch.getServerSocket(), ch.getClientSocket());
-
-            //e.printStackTrace();
         }
     }
-
-    /*private static void readLoop(BufferedReader in, ServerSocket sS, Socket cS) {
-
-
-        while (true) {
-
-            System.out.println("Server started!");
-            sS = null;
-            try {
-                sS = new ServerSocket(4444);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            cS = null;
-            System.out.println("Accepting...");
-            try {
-                cS = sS.accept();
-                System.out.println("Accepted");
-                break;
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-        }
-    }*/
-
 
     static String process(String stringa) {
 
